@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+  <title>Регистрация</title>
+  <body>
+    <div class="wrap">
+      <div class="content">
+        <div class="signin_area">
+          <div class="signin_wrap">
+            <h1 class="logo">
+              Регистрация
+            </h1>
+          <form action="/submit" method=post>
+            <div class ="input_wrap">
+              <label for="name" class="label">Имя</label>
+
+              <input type="text" name="name" class="input" />
+
+            </div>
+            <div class="input_wrap">
+              <label for="email" class="label">email</label>
+
+              <input type="text" name="email" class="input" />
+
+            </div>
+
+            <button class="login_button" type="submit">Авторизация</button>
+          </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/static/js/index.js"></script>
+  </body>
+</html>
